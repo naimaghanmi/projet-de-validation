@@ -1,0 +1,38 @@
+.listUsers{
+    display: flex;
+  flex-wrap: wrap;
+  margin: 20px 50px;
+  padding: 10px;
+}
+
+.profilesSection {
+  background-color: #f7f5ec;
+  margin: 50px 20px 10px 20px;
+  padding: 20px;
+  text-align: center;
+}
+.profilesSection h1 {
+  color:#57ccfd;
+  padding-bottom: 20px;
+
+}
+.recherche{
+  margin:10px 200px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.recherche  span {
+  color:rgb(0, 47, 54);
+  font-size: 20px;
+}
+.recherche select{
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color:rgb(0, 47, 54);
+
+}

@@ -1,0 +1,23 @@
+
+.logo{
+    font-size: 30px;
+    text-align: left;
+}
+.logoroot{
+    display: flex;
+
+}
+
+.fab{
+    color:#FA990A
+}
+.fad{
+    color:#002F36;
+}
+
+.depannageLogo{
+    color:#002F36;
+    font-size: 20px;
+    text-align:left;
+   
+}

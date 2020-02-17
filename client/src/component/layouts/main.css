@@ -1,0 +1,83 @@
+
+  #background-video{
+    position: relative;
+  }
+  .content{
+    position: absolute;
+    left: 500px;
+    top:120px;
+    
+  }
+  .content p{
+    color: rgb(0, 47, 54);
+    font-size: 30px;
+    animation-duration: 5s;
+    animation-name:glissement;
+    animation-iteration-count: Initial;
+  }
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .btnMAin {
+    background-color: #FA990A;
+    
+    border-radius: 35px;
+    color: rgb(0, 47, 54);
+    border-color:#FA990A;
+    width: 150px;
+    height: 40px;
+    margin-right: 5px;
+    
+  }
+
+ .depannage p {
+  font-size: 20px;
+  color: rgb(0, 47, 54);
+  margin: 50px 100px ;
+  padding: 25px;
+
+ 
+
+}
+.depannage h3 {
+  color: #57ccfd;
+
+}
+.Services{
+    display: flex;
+  flex-flow: wrap;
+  margin: 10px 45px;
+  padding: 10px;
+
+}
+.cont{
+    display: block;
+    margin-left: 20px;
+}
+.title p{
+    text-align: center;
+    color: orangered;
+    font-style: italic;
+    font-size: large;
+}
+.containerMain img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width:300px;
+   height:300px;
+   margin:10px;
+   opacity: 0.5;
+  filter: alpha(opacity=50); 
+}
+
+.containerMain img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); 
+}

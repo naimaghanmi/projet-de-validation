@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    margin-top: 50px;
+}
+.section1 {
+    width:50%;
+    margin-left: 20px;
+}
+.section1 p{
+    display: block;
+    
+}
+.section2{
+    display: block;
+}
+.end{
+    text-align: center;
+    padding-bottom:10px;
+}
+.final{
+    background-color: #1E7C88;
+    width:auto;
+    padding:10px;
+}

@@ -1,0 +1,44 @@
+h4{
+    color :#00b39b;
+}
+.imgPicture{
+    margin-right: 120px;
+}
+.coll{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 120px;
+    margin-top:50px;
+}
+.imgleft{
+    margin-left: 90px;
+}
+.etape {
+    margin-right: 120px;
+    margin-top:50px;
+    text-align: center;
+
+}
+.etape1{
+    margin-left: 90px;
+    margin-top:50px;
+    text-align: center;
+}
+h2{
+    color:#A91101;
+}
+.Home img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+  }
+.Home img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+  }
+.Stage1{
+    margin:30px;
+
+}
+.Home{
+text-align: center;
+}

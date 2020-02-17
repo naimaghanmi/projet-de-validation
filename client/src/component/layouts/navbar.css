@@ -1,0 +1,59 @@
+.left{
+    display:  flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.left Link {
+    color: rgb(0, 47, 54);
+}
+.right{
+    display:  flex;
+   margin-right: 30px;
+   align-items: center;
+
+}
+.haut{
+    display:  flex;
+    align-items: center;
+
+
+
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+
+}
+.btnNavBar{
+    background-color: #FA990A;
+    
+    border-radius: 35px;
+    color: rgb(0, 47, 54);
+    border-color:#FA990A;
+
+    width: 120px;
+    height: 35px;
+    margin-right: 5px;
+    
+}
+.main-header{
+    position: relative;
+    position: sticky;
+    z-index:12;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+
+}
+.inscription{
+    border-color:#FA990A;
+    background-color: white;
+    border-radius: 35px;
+    width: 120px;
+    margin-right: 10px;
+    color:rgb(0, 47, 54)
+
+}

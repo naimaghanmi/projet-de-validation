@@ -1,0 +1,51 @@
+.post-form textarea{
+    
+        width: 500px;
+        height:200px;
+        border:1px solid #3366FF;
+        border-left: 4px solid #3366FF;
+    
+}
+.btn{
+    background-color: #FA990A;
+    border-radius: 5px;
+    color: #002F36;
+    border: none;
+}
+.btncmt{
+    background-color: #FA990A;
+    border-radius: 5px;
+    color: #002F36;
+    border: none;
+    width:150px
+}
+.postTitle {
+    background-color: #57ccfd;
+}
+.postRoot {
+    margin: 50px 100px;
+    background-color: #f7f5ec;
+    color: rgb(0, 47, 54);
+    text-align: center;
+
+    
+}
+.postRoot p {
+    color:#007dbc;
+}
+.postItem{
+    
+    margin: 10px 200px;
+    border-radius: 5%;
+    background-color: #fff
+}
+.comment-count{
+    background-color: #57ccfd;
+    
+    border-radius: 35px;
+    color: rgb(0, 47, 54);
+    border-color:#57ccfd;
+    width: 150px;
+    height: 30px;
+    margin:20px
+}

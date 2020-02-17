@@ -1,0 +1,63 @@
+.dashRoot {
+    text-align: center;
+    background: #f7f5ec;
+    margin: 50px 300px 10px 300px;
+    padding: 20px 70px;
+    border-radius: 5%;
+
+
+
+}
+.dashRoot h1 {
+    color: #57ccfd;
+}
+.dashRoot span {
+    color: rgb(0, 47, 54);
+}
+.dashboard{
+    display:flex;
+    justify-content: space-between;
+
+}
+.dashboard img {
+    width: 350px;
+    height: 300px;
+}
+.info{
+    padding-top:70px ;
+}
+.info label{
+    font-size: 18px;
+    color: #f07306;
+}
+.info p{
+    color: rgb(0, 47, 54);
+    font-size:22px ;
+}
+.actiondash{
+    text-align: center;
+    background: #f7f5ec;
+    margin: 10px 300px;
+    border-radius: 5%;
+
+}
+.btnEdit {
+    background-color: #57ccfd;
+    
+    border-radius: 35px;
+    color: rgb(0, 47, 54);
+    border-color:#57ccfd;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    }
+    .btnDelete {
+        background-color: #e60000;
+        
+        border-radius: 35px;
+        color: #fff;
+        border-color:#e60000;
+        width: 150px;
+        height: 40px;
+        margin: 20px;
+        }
